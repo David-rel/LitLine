@@ -33,27 +33,27 @@ To start working on the LitLine project, follow these steps:
 
 1. Clone the repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/litline.git
-\`\`\`
+```
 
 2. Change into the newly created `litline` directory:
 
-\`\`\`bash
+```bash
 cd litline
-\`\`\`
+```
 
 3. Install the required dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 4. Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 This will start the development server at [http://localhost:3000](http://localhost:3000).
 
@@ -65,27 +65,27 @@ To deploy the LitLine project to Vercel, follow these steps:
 
 1. Install the Vercel CLI globally on your machine:
 
-\`\`\`bash
+```bash
 npm install -g vercel
-\`\`\`
+```
 
 2. Log in to your Vercel account (or sign up for a new one) using the CLI:
 
-\`\`\`bash
+```bash
 vercel login
-\`\`\`
+```
 
 3. Change into the `litline` directory (if you're not already there):
 
-\`\`\`bash
+```bash
 cd litline
-\`\`\`
+```
 
 4. Deploy the project:
 
-\`\`\`bash
+```bash
 vercel --prod
-\`\`\`
+```
 
 This will create a new deployment of the project and provide you with a live URL.
 
