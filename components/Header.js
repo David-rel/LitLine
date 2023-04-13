@@ -5,19 +5,19 @@ import React from 'react'
 const Header = () => {
   return (
     <header className="bg-gray-700 w-full p-4 flex justify-between items-center">
-      <div className="flex items-center">
+      <div className="flex items-center justify-center w-full md:justify-start">
         <img
           src="/static/LitLine.png"
           alt="Logo"
           className="h-12 w-auto"
           style={{ aspectRatio: '3184 / 1162' }}
         />
-        <h1 className="text-white text-4xl font-semibold ml-4">
-          LitLine
-        </h1>
+        <h1 className="text-white text-4xl font-semibold ml-4">LitLine</h1>
       </div>
-      <p className="text-white italic">"Everyone should be able to read"</p>
-      <div className="relative">
+      <p className="text-white italic hidden md:block">
+        "Everyone should be able to read"
+      </p>
+      <div className="relative hidden md:block">
         <input
           type="text"
           placeholder="Search..."
