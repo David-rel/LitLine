@@ -4,8 +4,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header className="bg-gray-700 w-full p-4 flex justify-between items-center">
-      <div className="flex items-center justify-center w-full md:justify-start">
+    <header className="bg-gray-700 w-full p-4 grid grid-cols-3 items-center md:grid-cols-3">
+      <div className="flex items-center justify-center w-full md:justify-start col-span-3 md:col-span-1">
         <img
           src="/static/LitLine.png"
           alt="Logo"
@@ -14,10 +14,10 @@ const Header = () => {
         />
         <h1 className="text-white text-4xl font-semibold ml-4">LitLine</h1>
       </div>
-      <p className="text-white italic hidden md:block">
+      <p className="text-white italic hidden md:block text-center md:col-span-1">
         "Everyone should be able to read"
       </p>
-      <div className="relative hidden md:block">
+      <div className="relative hidden md:block justify-self-end md:col-span-1">
         <input
           type="text"
           placeholder="Search..."
