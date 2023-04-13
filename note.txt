@@ -1,0 +1,119 @@
+# LitLine Site
+
+| name | LitLine |
+| --- | --- |
+| type | multi page |
+| framework | next |
+| styling | tailwind |
+| static | true |
+| display | vercel |
+| database | false |
+| in app pay | unkown |
+| version ctrl | Github |
+| color scheme | light gray and blue |
+| products # | 1 |
+| color of product | multi |
+| logo | unknown |
+
+**LitLine Description**
+
+A major issue that children with Dyslexia struggle with is reading large chunks of text at once. The
+LitLine attempts to remedy this issue by isolating each line of text. It is an easily mass producible and
+modifiable tool due to the fact that it is 3D printed. In addition, the material used to create the LitLine is
+compostable non toxic PLA. All models of the tool are available on Thingiverse.com (https://
+www.thingiverse.com/thing:5966347) for modification, and I distribute copies to local schools free of
+charge.
+
+**About Me**
+
+I am currently a junior at Regis Jesuit high school, and I was diagnosed with dyslexia in first grade. I
+greatly struggled with reading growing up and at times hated it due to the great confusion that I felt. I
+have since realized the joy that reading can bring and the importance of reading without anger.
+Recently my younger brother was also diagnosed with Dyslexia, and I hated to see his frustration when
+reading. Thinking back on what helped me read when I was his age I remembered using a piece of
+paper to isolate the line. This inspired me to create a more robust, permanent, and customizable tool to
+isolate the line. I found that this benefitted my brother, so I decided to share it with the learning
+services programs at other schools.
+
+**Ordering Instructions**
+
+If you are interested in ordering simply email me at dyslexicreadingtools@gmail.com and I will get back
+to you with details!
+
+content:
+
+videos
+
+photos in use
+
+up close photos
+
+CAD design
+
+how many products
+
+multi color?
+
+dimensions of procut (3D)
+
+NAVBAR system:
+
+/ → main
+
+/products → main product
+
+/about → about the creator
+
+/contact → contact the creator
+
+/Creation → how it is created
+
+/Purpose → the main purpose of this product
+
+Main Page: 
+
+Introduction to topic
+
+(make the first look of the website exciting to be there)
+
+have a ability to read a short description and local modal for the pages
+
+Product:
+
+A display of the product and a short dexrition
+
+(maybe multiple for differne sizes or colours)
+
+videos and phoots of using it
+
+fake reviews
+
+about and contact:
+
+about the creator
+
+make the user feel like this is humanly experince and not a website
+
+cleartly state how to buy
+
+have socials and message system
+
+creation:
+
+more photos
+
+videos of the creation
+
+a CAD design
+
+disclaimer about it 
+
+purpose:
+
+share a touch warming story (maybe)
+
+explain why you got the excitemnt to do this
+
+whats the goal here? (detialed explanation) 
+
+share a video of a kid holding it and smiling
