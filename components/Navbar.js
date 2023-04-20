@@ -29,11 +29,6 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="w-full md:w-auto text-center">
-            <Link href="/creation" legacyBehavior>
-              <a className="text-white hover:text-gray-300">How it's Created</a>
-            </Link>
-          </li>
-          <li className="w-full md:w-auto text-center">
             <Link href="/purpose" legacyBehavior>
               <a className="text-white hover:text-gray-300">Our Purpose</a>
             </Link>

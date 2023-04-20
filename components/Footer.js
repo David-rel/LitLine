@@ -62,14 +62,7 @@ function footer() {
                   >
                     Contact
                   </Link>
-                  <br />
-                  <br />
-                  <Link
-                    href="/creation"
-                    className=" md:mr-6 cursor-pointer pt-4 lg:py-0"
-                  >
-                    How it is Created
-                  </Link>
+                  
                   <br />
                   <br />
                   <Link
