@@ -1,0 +1,27 @@
+.section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 {
+  background-color: #f0f8ff;
+}
+
+.section2 {
+  background-color: #e6e6fa;
+}
+
+.section3 {
+  background-color: #fffacd;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
