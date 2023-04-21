@@ -65,7 +65,7 @@ const App = () => {
         <section className="grid grid-cols-2 gap-4 mb-20 ">
           <div className="relative h-96 w-full">
             <Image
-              src="/photos/people1.jpeg"
+              src="/photos/IMG_1126.jpeg"
               alt="Product image 1"
               layout="fill"
               objectFit="cover"
@@ -74,7 +74,7 @@ const App = () => {
           </div>
           <div className="relative h-96 w-full">
             <Image
-              src="/photos/people1.jpeg"
+              src="/photos/IMG_1129.jpeg"
               alt="Product image 2"
               layout="fill"
               objectFit="cover"
@@ -111,9 +111,9 @@ const App = () => {
             <div className="grid grid-cols-5 gap-2 mb-4">
               <button
                 className="bg-red-500 p-2 rounded"
-                onClick={() => handleColorChange('red')}
+                onClick={() => handleColorChange('blue')}
               >
-                Red
+                cobalt
               </button>
               <button
                 className="bg-green-500 p-2 rounded"
@@ -157,23 +157,25 @@ const App = () => {
         </section>
 
         {/* Section 2 */}
-        <section className='pt-20'>
+        <section className="pt-20">
           <h2 className="text-xl font-bold mb-4">
             Interested in this product?
           </h2>
           <p>
-            If you're interested in purchasing this product or have any
-            questions, please feel free to contact me. Click the button below to
-            be redirected to the contact form on the website.
+            If you are interested in ordering simply email me at
+            <a className="font-bold"> dyslexicreadingtools@gmail.com </a> and I
+            will get back to you with details! Or...
           </p>
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
-              <a className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-800">
+              <a className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-800 font-bold">
                 Contact Me
               </a>
             </Link>
           </div>
         </section>
+        <br />
+        <br />
       </main>
     </div>
   )
