@@ -93,7 +93,7 @@ const App = () => {
         </section>
 
         {/* New STL Viewer Section */}
-        <section className="h-screen flex items-center justify-center bg-black py-20 pb-32">
+        <section className="h-screen flex items-center justify-center bg-black py-20 pb-36">
           {/* New STL Viewer Section */}{' '}
           <div className="relative w-full max-w-4xl h-3/4 bg-gray-800 rounded-lg p-4 mb-20 mx-auto">
             <h1 className="text-center text-white text-lg mb-4">
@@ -111,9 +111,9 @@ const App = () => {
             <div className="grid grid-cols-5 gap-2 mb-4">
               <button
                 className="bg-red-500 p-2 rounded"
-                onClick={() => handleColorChange('blue')}
+                onClick={() => handleColorChange('red')}
               >
-                cobalt
+                Red
               </button>
               <button
                 className="bg-green-500 p-2 rounded"
@@ -151,6 +151,9 @@ const App = () => {
                 <li>
                   Zoom in and out using the scroll wheel or trackpad gesture.
                 </li>
+                <li>
+                  Move around the model by pressing 2 fingers down on the trackpad and moving
+                </li>
               </ol>
             </div>
           </div>
@@ -166,6 +169,15 @@ const App = () => {
             <a className="font-bold"> dyslexicreadingtools@gmail.com </a> and I
             will get back to you with details! Or...
           </p>
+
+          {/* Add the video element with the playsInline attribute */}
+          <div className="mt-4">
+            <video className="w-full h-auto" controls playsInline>
+              <source src="/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
               <a className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-800 font-bold">
@@ -174,6 +186,7 @@ const App = () => {
             </Link>
           </div>
         </section>
+
         <br />
         <br />
       </main>
