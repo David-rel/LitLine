@@ -11,10 +11,9 @@ const Header = () => {
         <img
           src="/static/LitLine.png"
           alt="Logo"
-          className="h-12 w-auto"
+          className="h-14 w-auto"
           style={{ aspectRatio: '3184 / 1162' }}
         />
-        <h1 className="text-white text-4xl font-semibold ml-4">LitLine</h1>
       </div>
       <p className="text-white italic hidden md:block text-right md:col-span-2">
         "Everyone should be able to read"

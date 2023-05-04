@@ -141,7 +141,7 @@ function Contact() {
               <form
                 id="contact"
                 className="bg-white py-4 px-8 rounded-tr rounded-br"
-                //action="https://formspree.io/f/"
+                action="https://formspree.io/f/meqwnlyk"
                 method="POST"
               >
                 <h1 className="text-4xl text-gray-800 font-extrabold mb-6">

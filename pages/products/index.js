@@ -139,6 +139,13 @@ const App = () => {
               >
                 Purple
               </button>
+              <button
+                style={{ backgroundColor: '#8B008B' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#8B008B')}
+              >
+                Dark Magenta
+              </button>
             </div>
             <div className="text-white">
               <h2 className="text-lg mb-2">Instructions:</h2>
@@ -152,7 +159,8 @@ const App = () => {
                   Zoom in and out using the scroll wheel or trackpad gesture.
                 </li>
                 <li>
-                  Move around the model by pressing 2 fingers down on the trackpad and moving
+                  Move around the model by pressing 2 fingers down on the
+                  trackpad and moving
                 </li>
               </ol>
             </div>

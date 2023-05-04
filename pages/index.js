@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
-import styles from "../styles/Home.module.css"; // import the styles
-
+import styles from '../styles/Home.module.css' // import the styles
 
 export default function Index() {
   const [opacity, setOpacity] = useState(1)
@@ -133,12 +132,21 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <div className={`${styles.section} ${styles.section3}`}>
+        <div className={`${styles.section} ${styles.section4}`}>
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
                 <h2 className="text-5xl font-semibold mb-4">Our Purpose</h2>
-                <div className="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row-reverse items-center">
+                  <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
+                    <Image
+                      className="object-cover object-center"
+                      src="/photos/thing.png"
+                      alt="How we do it"
+                      width={600}
+                      height={400}
+                    />
+                  </div>
                   <div className="w-full md:w-1/2 text-2xl">
                     <p>
                       We continuously strive to stay ahead of the curve,
@@ -152,47 +160,50 @@ export default function Index() {
                       </a>
                     </Link>
                   </div>
-                  <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
-                    <Image
-                      className="object-cover object-center"
-                      src="/photos/IMG_1130.jpeg"
-                      alt="Our Purpose"
-                      width={600}
-                      height={400}
-                    />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <div className="flex w-2/3 h-96 bg-white shadow-lg rounded-lg overflow-hidden">
-          <div
-            className="w-1/2 bg-cover"
-            style={{ backgroundImage: "url('./photos/show.jpeg')" }}
-          ></div>
-          <div className="w-1/2 p-6">
-            <h2 className="text-3xl font-semibold text-gray-700">
-              A little about me
-            </h2>
-            <p className="mt-4 text-gray-600">
-              Discover our amazing services and become part of our fantastic
-              community.
-            </p>
-            <div className="mt-8">
-              <Link href="/about">
-                <button className="px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg mr-4">
-                  Learn More
-                </button>
-              </Link>
-              <Link href="contact">
-                <button className="px-4 py-2 bg-gray-200 text-gray-700 font-semibold rounded-lg">
-                  Contact Me
-                </button>
-              </Link>
+        <div className={styles.sectionWrapper}>
+          <div className={`${styles.section} ${styles.section3}`}>
+            <div className="container mx-auto px-4">
+              <div className="flex flex-col space-y-12">
+                <div className="section-wrapper">
+                  <h2 className="text-5xl font-semibold mb-4">
+                    A little about me
+                  </h2>
+                  <div className="flex flex-col md:flex-row items-center">
+                    <div className="w-full md:w-1/2 text-2xl">
+                      <p>
+                        Discover our amazing services and become part of our
+                        fantastic community.
+                      </p>
+                      <div className="mt-4">
+                        <Link href="/about" legacyBehavior>
+                          <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                            Learn More
+                          </a>
+                        </Link>
+                        <Link href="/contact" legacyBehavior>
+                          <a className="bg-blue-500 text-white px-4 py-2 mt-4 ml-4 inline-block rounded">
+                            Contact Me
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
+                      <Image
+                        className="object-cover object-center"
+                        src="/photos/show.jpeg"
+                        alt="A little about me"
+                        width={600}
+                        height={400}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
