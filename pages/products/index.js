@@ -93,7 +93,7 @@ const App = () => {
         </section>
 
         {/* New STL Viewer Section */}
-        <section className="h-screen flex items-center justify-center bg-black py-20 pb-36">
+        <section className="h-screen flex items-center justify-center bg-blue-500 py-20 pb-48">
           {/* New STL Viewer Section */}{' '}
           <div className="relative w-full max-w-4xl h-3/4 bg-gray-800 rounded-lg p-4 mb-20 mx-auto">
             <h1 className="text-center text-white text-lg mb-4">
@@ -110,41 +110,60 @@ const App = () => {
             </Canvas>
             <div className="grid grid-cols-5 gap-2 mb-4">
               <button
-                className="bg-red-500 p-2 rounded"
-                onClick={() => handleColorChange('red')}
-              >
-                Red
-              </button>
-              <button
-                className="bg-green-500 p-2 rounded"
-                onClick={() => handleColorChange('green')}
-              >
-                Green
-              </button>
-              <button
-                className="bg-blue-500 p-2 rounded"
-                onClick={() => handleColorChange('blue')}
-              >
-                Blue
-              </button>
-              <button
-                className="bg-yellow-500 p-2 rounded"
-                onClick={() => handleColorChange('yellow')}
-              >
-                Yellow
-              </button>
-              <button
-                className="bg-purple-500 p-2 rounded"
-                onClick={() => handleColorChange('purple')}
-              >
-                Purple
-              </button>
-              <button
-                style={{ backgroundColor: '#8B008B' }}
+                style={{ backgroundColor: '#0047AB' }}
                 className="p-2 rounded text-white"
-                onClick={() => handleColorChange('#8B008B')}
+                onClick={() => handleColorChange('#0047AB')}
               >
-                Dark Magenta
+                Cobalt Blue
+              </button>
+              <button
+                style={{ backgroundColor: '#C46210' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#C46210')}
+              >
+                Autumn Orange
+              </button>
+              <button
+                style={{ backgroundColor: '#DA9100' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#DA9100')}
+              >
+                Harvest Gold
+              </button>
+              <button
+                style={{ backgroundColor: '#228B22' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#228B22')}
+              >
+                Forest Green
+              </button>
+              <button
+                style={{ backgroundColor: '#76EEC6' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#76EEC6')}
+              >
+                Green Ice
+              </button>
+              <button
+                style={{ backgroundColor: '#D2B48C' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#D2B48C')}
+              >
+                Tan 64
+              </button>
+              <button
+                style={{ backgroundColor: '#FF6EC7' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#FF6EC7')}
+              >
+                Neon Pink
+              </button>
+              <button
+                style={{ backgroundColor: '#FF4C4C' }}
+                className="p-2 rounded text-white"
+                onClick={() => handleColorChange('#FF4C4C')}
+              >
+                Red Light Glitter
               </button>
             </div>
             <div className="text-white">

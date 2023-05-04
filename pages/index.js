@@ -64,16 +64,21 @@ export default function Index() {
         </div>
       </section>
       <div className={styles.sectionWrapper}>
-        <div className={`${styles.section} ${styles.section1}`}>
+        <div className={`${styles.section}`}>
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
-                <h2
-                  className={`text-5xl font-semibold mb-4 ${styles.sectionTitle}`}
-                >
-                  Our product
-                </h2>
-                <div className="flex flex-col md:flex-row items-center">
+                <h2 className="text-5xl font-semibold mb-4">Our product</h2>
+                <div className="flex flex-col md:flex-row-reverse items-center">
+                  <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
+                    <Image
+                      className="object-cover object-center"
+                      src="/photos/thing.png"
+                      alt="How we do it"
+                      width={600}
+                      height={400}
+                    />
+                  </div>
                   <div className="w-full md:w-1/2 text-2xl">
                     <p>
                       This is the first part of our product journey, where it
@@ -86,20 +91,12 @@ export default function Index() {
                       </a>
                     </Link>
                   </div>
-                  <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
-                    <Image
-                      className="object-cover object-center"
-                      src="/photos/IMG_1128.jpeg"
-                      alt="Our product"
-                      width={600}
-                      height={400}
-                    />
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className={`${styles.section} ${styles.section2}`}>
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
@@ -171,35 +168,34 @@ export default function Index() {
               <div className="flex flex-col space-y-12">
                 <div className="section-wrapper">
                   <h2 className="text-5xl font-semibold mb-4">
+                    {' '}
                     A little about me
                   </h2>
-                  <div className="flex flex-col md:flex-row items-center">
+                  <div className="flex flex-col md:flex-row-reverse items-center">
+                    <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
+                      <Image
+                        className="object-cover object-center"
+                        src="/photos/thing.png"
+                        alt="How we do it"
+                        width={600}
+                        height={400}
+                      />
+                    </div>
                     <div className="w-full md:w-1/2 text-2xl">
                       <p>
                         Discover our amazing services and become part of our
                         fantastic community.
                       </p>
-                      <div className="mt-4">
-                        <Link href="/about" legacyBehavior>
-                          <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
-                            Learn More
-                          </a>
-                        </Link>
-                        <Link href="/contact" legacyBehavior>
-                          <a className="bg-blue-500 text-white px-4 py-2 mt-4 ml-4 inline-block rounded">
-                            Contact Me
-                          </a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
-                      <Image
-                        className="object-cover object-center"
-                        src="/photos/show.jpeg"
-                        alt="A little about me"
-                        width={600}
-                        height={400}
-                      />
+                      <Link href="/about" legacyBehavior>
+                        <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                          Learn More
+                        </a>
+                      </Link>
+                      <Link href="/contact" legacyBehavior>
+                        <a className="bg-blue-500 text-white px-4 py-2 mt-4 ml-4 inline-block rounded">
+                          Contact Me
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
