@@ -94,14 +94,14 @@ const App = () => {
         </section>
 
         {/* New STL Viewer Section */}
-        <section className="h-screen flex items-center justify-center bg-blue-500 py-20 pb-48">
+        <section className="h-auto sm:h-screen flex items-center justify-center py-16 md:pb-48 sm:pb-20">
           {/* New STL Viewer Section */}{' '}
           <div className="relative w-full max-w-4xl h-3/4 bg-gray-800 rounded-lg p-4 mb-20 mx-auto">
             <h1 className="text-center text-white text-lg mb-4">
               Welcome to the STL Viewer
             </h1>
             <Canvas
-              camera={{ position: [0, 0, 50] }}
+              camera={{ position: [0, 0, 100] }}
               className="w-full h-full mb-4"
             >
               <ambientLight />
@@ -168,8 +168,10 @@ const App = () => {
               </button>
             </div>
             <div className="text-white">
-              <h2 className="text-lg mb-2">Instructions:</h2>
-              <ol className="list-decimal list-inside">
+              <h2 className="text-lg mb-2 md:text-black sm:text-white">
+                Instructions:
+              </h2>
+              <ol className="list-decimal list-inside md:text-black sm:text-white">
                 <li>
                   Click on a colour button to change the colour of the STL
                   model.
