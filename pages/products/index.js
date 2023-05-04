@@ -62,7 +62,8 @@ const App = () => {
     <div className="min-h-screen bg-gray-100">
       <main className="container mx-auto p-4">
         {/* Section 1 */}
-        <section className="grid grid-cols-2 gap-4 mb-20 ">
+        {/* Section 1 */}
+        <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
           <div className="relative h-96 w-full">
             <Image
               src="/photos/IMG_1126.jpeg"
