@@ -4,9 +4,9 @@ import React from 'react'
 
 function footer() {
   return (
-    <div className="bg-gray-700 px-10 py-10 text-center">
+    <div className="bg-green-600 px-10 py-10 text-center">
       <>
-        <div className=" bg-linear-pink-invert pb-12 bg-gray-700">
+        <div className=" bg-linear-pink-invert pb-12 bg-green-600">
           <div className="mx-auto container flex flex-col items-center justify-center">
             <div>
               <Image
@@ -18,7 +18,7 @@ function footer() {
               />
             </div>
 
-            <div className="text-white flex flex-col md:items-center f-f-l  pt-6">
+            <div className="text-black flex flex-col md:items-center f-f-l  pt-6">
               <h1 className="text-2xl">LitLine</h1>
 
               <div className="md:flex items-center mt-4 text-base text-color f-f-l">

@@ -31,12 +31,12 @@ export default function Index() {
           <div class="max-w-xl text-center sm:text-left">
             <h1
               style={{ opacity: opacity }}
-              class="text-3xl font-extrabold sm:text-5xl text-black"
+              class="text-3xl font-extrabold sm:text-5xl text-green-300"
             >
               Lit Line
               <strong
                 style={{ opacity: opacity }}
-                class="block font-extrabold text-blue-400"
+                class="block font-extrabold text-green-600"
               >
                 Helping everyone to read
               </strong>
@@ -55,7 +55,7 @@ export default function Index() {
             >
               <Link
                 href="/products"
-                class="block w-full rounded bg-blue-400 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                class="block w-full rounded bg-green-300 px-12 py-3 text-sm font-medium text-black shadow hover:bg-green-100 focus:outline-none focus:ring active:bg-green-100 sm:w-auto"
               >
                 Learn More
               </Link>
@@ -64,11 +64,13 @@ export default function Index() {
         </div>
       </section>
       <div className={styles.sectionWrapper}>
-        <div className={`${styles.section}`}>
+        <div className={`${styles.section} bg-green-100`}>
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
-                <h2 className="text-5xl font-semibold mb-4">Our product</h2>
+                <h2 className="text-5xl text-green-600 font-semibold mb-4">
+                  Our product
+                </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                     <Image
@@ -79,14 +81,14 @@ export default function Index() {
                       height={400}
                     />
                   </div>
-                  <div className="w-full md:w-1/2 text-2xl">
+                  <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
                       This is the first part of our product journey, where it
                       all started. We focused on creating a strong foundation to
                       ensure the best possible experience for our users.
                     </p>
                     <Link href="/products" legacyBehavior>
-                      <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
                         products
                       </a>
                     </Link>
@@ -101,7 +103,9 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
-                <h2 className="text-5xl font-semibold mb-4">How we do it</h2>
+                <h2 className="text-5xl font-semibold mb-4 text-green-600">
+                  How we do it
+                </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                     <Image
@@ -112,14 +116,14 @@ export default function Index() {
                       height={400}
                     />
                   </div>
-                  <div className="w-full md:w-1/2 text-2xl">
+                  <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
                       As our product grew, we adapted and improved our offerings
                       based on user feedback and emerging technologies. This
                       allowed us to provide even more value to our customers.
                     </p>
                     <Link href="/creation" legacyBehavior>
-                      <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
                         creation
                       </a>
                     </Link>
@@ -133,7 +137,9 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
-                <h2 className="text-5xl font-semibold mb-4">Our Purpose</h2>
+                <h2 className="text-5xl font-semibold mb-4 text-green-600">
+                  Our Purpose
+                </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                     <Image
@@ -144,7 +150,7 @@ export default function Index() {
                       height={400}
                     />
                   </div>
-                  <div className="w-full md:w-1/2 text-2xl">
+                  <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
                       We continuously strive to stay ahead of the curve,
                       bringing new features and innovations to our product. Our
@@ -152,7 +158,7 @@ export default function Index() {
                       expectations.
                     </p>
                     <Link href="/purpose" legacyBehavior>
-                      <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
                         purpose
                       </a>
                     </Link>
@@ -167,7 +173,7 @@ export default function Index() {
             <div className="container mx-auto px-4">
               <div className="flex flex-col space-y-12">
                 <div className="section-wrapper">
-                  <h2 className="text-5xl font-semibold mb-4">
+                  <h2 className="text-5xl font-semibold mb-4 text-green-600">
                     {' '}
                     A little about me
                   </h2>
@@ -181,18 +187,18 @@ export default function Index() {
                         height={400}
                       />
                     </div>
-                    <div className="w-full md:w-1/2 text-2xl">
+                    <div className="w-full md:w-1/2 text-2xl text-black">
                       <p>
                         Discover our amazing services and become part of our
                         fantastic community.
                       </p>
                       <Link href="/about" legacyBehavior>
-                        <a className="bg-blue-500 text-white px-4 py-2 mt-4 inline-block rounded">
+                        <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                           Learn More
                         </a>
                       </Link>
                       <Link href="/contact" legacyBehavior>
-                        <a className="bg-blue-500 text-white px-4 py-2 mt-4 ml-4 inline-block rounded">
+                        <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
                           Contact Me
                         </a>
                       </Link>

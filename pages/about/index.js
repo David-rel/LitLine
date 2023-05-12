@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="flex h-full p-10">
-      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 bg-white rounded-xl shadow-xl overflow-hidden">
+    <div className="flex h-full p-10 bg-green-100">
+      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 bg-green-300 rounded-xl shadow-xl overflow-hidden">
         <div className="relative md:h-full">
           <Image
             src="/photos/people1.jpeg"
@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div className="p-2 md:p-10 flex flex-col justify-center">
-          <h2 className="text-3xl mb-4">Hello, my name is</h2>
+          <h2 className="text-3xl mb-4">Hello, my name is Mathew Gallagher</h2>
           <p className="text-xl">
             I am currently a junior at Regis Jesuit high school, and I was
             diagnosed with dyslexia in first grade. I greatly struggled with

@@ -9,15 +9,15 @@ function Contact() {
 
   return (
     <div>
-      <div className="bg-gray-800">
+      <div className="bg-green-100">
         <div className="container mx-auto pt-16">
           <div className="lg:flex">
-            <div className="xl:w-2/5 lg:w-2/5 bg-blue-400 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+            <div className="xl:w-2/5 lg:w-2/5 bg-green-600 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
               <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
-                <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">
+                <h1 className="xl:text-4xl text-3xl pb-4 text-black font-bold">
                   Get in touch
                 </h1>
-                <p className="text-xl text-white pb-8 leading-relaxed font-normal lg:pr-4">
+                <p className="text-xl text-black pb-8 leading-relaxed font-normal lg:pr-4">
                   Got a question about me? Are you interested in the product and
                   want to buy? Have some suggestions or just want to say Hi?
                   Just contact us.
@@ -31,7 +31,7 @@ function Contact() {
                       height={20}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
-                      stroke="#ffffff"
+                      stroke="#000000"
                       fill="none"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -42,7 +42,7 @@ function Contact() {
                       <path d="M15 3a6 6 0 0 1 6 6" />
                     </svg>
                   </div>
-                  <p className="pl-4 text-white text-base">+1 (720) 822 4550</p>
+                  <p className="pl-4 text-black text-base">+1 (720) 822 4550</p>
                 </div>
                 <div className="flex items-center">
                   <div>
@@ -53,7 +53,7 @@ function Contact() {
                       height={20}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
-                      stroke="#FFFFFF"
+                      stroke="#000000"
                       fill="none"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -63,11 +63,11 @@ function Contact() {
                       <polyline points="3 7 12 13 21 7" />
                     </svg>
                   </div>
-                  <p className="pl-4 text-white text-base">
+                  <p className="pl-4 text-black text-base">
                     dyslexicreadingtools@gmail.com
                   </p>
                 </div>
-                <p className="text-lg text-white pt-10 tracking-wide">
+                <p className="text-lg text-black pt-10 tracking-wide">
                   Denver <br />
                   Colorado
                 </p>
@@ -137,10 +137,10 @@ function Contact() {
               </div>
             </div>
 
-            <div className="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
+            <div className="xl:w-3/5 lg:w-3/5 bg-green-300 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
               <form
                 id="contact"
-                className="bg-white py-4 px-8 rounded-tr rounded-br"
+                className="bg-green-300 py-4 px-8 rounded-tr rounded-br"
                 action="https://formspree.io/f/meqwnlyk"
                 method="POST"
               >
@@ -232,7 +232,7 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="focus:outline-none bg-blue-400 transition duration-150 ease-in-out hover:bg-blue-600 rounded text-white px-8 py-3 text-sm leading-6"
+                    className="focus:outline-none bg-green-200 transition duration-150 ease-in-out hover:bg-green-100 rounded text-black px-8 py-3 text-sm leading-6"
                   >
                     Submit
                   </button>

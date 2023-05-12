@@ -1,84 +1,89 @@
 import React from 'react'
-
-const OurPurpose = () => {
+function IndexPage() {
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">Our Purpose</h1>
-      <div className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-lg p-8">
-        <p className="text-white text-lg">
-          A major issue that children with dyslexia struggle with is reading
-          large chunks of text at once. The LitLine attempts to remedy this
-          issue by isolating each line of text. It is an easily mass-producible
-          and modifiable tool due to the fact that it is 3D printed. In
-          addition, the material used to create the LitLine is compostable,
-          non-toxic PLA. All models of the tool are available on{' '}
-          <a
-            href="https://www.thingiverse.com/thing:5966347"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            Thingiverse.com
-          </a>{' '}
-          for modification, and I distribute copies to local schools free of
-          charge.
-        </p>
-      </div>
-      <div className="mt-8 flex justify-center">
-        <img
-          src="/photos/people1.jpeg"
-          alt="LitLine Example"
-          className="rounded-lg shadow-lg w-full max-w-lg"
-        />
-      </div>
-
-      {/* New Sections */}
-      <section className="mt-16">
-        <div className="flex flex-wrap md:flex-nowrap">
-          <div className="w-full md:w-1/2">
-            <img
-              src="/photos/people1.jpeg"
-              alt="Section 1 Example"
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
-          </div>
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 p-4 bg-purple-500 rounded-lg">
-            <h2 className="text-2xl font-bold mb-4 text-white">
-              Section 1 Title
-            </h2>
-            <p className="text-white text-lg">
-              Insert the content for Section 1 here. You can add any relevant
-              information, statistics, or stories to engage your audience and
-              provide more context about your project.
-            </p>
+    <div className='bg-green-100'>
+      <div className=" mx-auto px-4 bg-green-100">
+        <h1 className="text-5xl text-center f-m-w text-black font-bold pt-0 pt-4">
+          Our Purpose for LitLine
+        </h1>
+        <div className="pt-14 xl:px-0 px-4">
+          <div className="w-full lg:flex">
+            <div className="lg:w-1/2">
+              <img
+                src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog1.png"
+                className="w-full"
+              />
+              <div className="mt-8 lg:mb-0 mb-8">
+                <h1 className="f-m-m text-2xl font-semibold leading-7">
+                  Beautiful Italy, Travel Blog
+                </h1>
+                <p className="text-base f-m-m leading-loose mt-2">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. It has survived not only five centuries.
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-1/2 lg:ml-8">
+              <div className="lg:flex items-start mb-8">
+                <img
+                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog2.png"
+                  className="w-full"
+                />
+                <div className="lg:ml-6">
+                  <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
+                    A Broken Backpack
+                  </h1>
+                  <p className="text-base f-m-m leading-loose mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div className="lg:flex items-start mb-8">
+                <img
+                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog3.png"
+                  className="w-full"
+                />
+                <div className="lg:ml-6">
+                  <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
+                    My life’s a Movie
+                  </h1>
+                  <p className="text-base f-m-m leading-loose mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                  </p>
+                </div>
+              </div>
+              <div className="lg:flex items-start mb-8">
+                <img
+                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog4.png"
+                  className="w-full"
+                />
+                <div className="lg:ml-6">
+                  <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
+                    Lilii’s Travel Plans
+                  </h1>
+                  <p className="text-base f-m-m leading-loose mt-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries. Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-
-      <section className="mt-16">
-        <div className="flex flex-wrap md:flex-nowrap">
-          <div className="w-full md:w-1/2">
-            <img
-              src="/photos/people1.jpeg"
-              alt="Section 2 Example"
-              className="rounded-lg shadow-lg w-full h-auto"
-            />
-          </div>
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:ml-8 p-4 bg-blue-500 rounded-lg">
-            <h2 className="text-2xl font-bold mb-4 text-white">
-              Section 2 Title
-            </h2>
-            <p className="text-white text-lg">
-              Insert the content for Section 2 here. You can add any relevant
-              information, statistics, or stories to engage your audience and
-              provide more context about your project.
-            </p>
-          </div>
-        </div>
-      </section>
-      {/* End of New Sections */}
+        <div />
+      </div>
     </div>
   )
 }
 
-export default OurPurpose
+export default IndexPage

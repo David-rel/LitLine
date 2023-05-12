@@ -6,7 +6,7 @@ const Header = () => {
 
   
   return (
-    <header className="bg-gray-700 w-full p-4 grid grid-cols-3 items-center md:grid-cols-3">
+    <header className="bg-green-600 w-full p-4 grid grid-cols-3 items-center md:grid-cols-3">
       <div className="flex items-center justify-center w-full md:justify-start col-span-3 md:col-span-1">
         <img
           src="/static/LitLine.png"

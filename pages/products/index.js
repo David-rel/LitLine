@@ -59,7 +59,7 @@ const App = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-green-100">
       <main className="container mx-auto p-4">
         {/* Section 1 */}
         {/* Section 1 */}
@@ -210,7 +210,7 @@ const App = () => {
 
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
-              <a className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-800 font-bold">
+              <a className="bg-green-300 text-black py-2 px-6 rounded-lg hover:bg-green-200 font-bold">
                 Contact Me
               </a>
             </Link>
