@@ -91,6 +91,13 @@ const App = () => {
               value of the product.
             </p>
           </div>
+          <div className="mt-4">
+            <Link href="/contact" legacyBehavior>
+              <a className="bg-green-300 text-black py-2 px-6 rounded-lg hover:bg-green-200 font-bold">
+                Buy Now
+              </a>
+            </Link>
+          </div>
         </section>
 
         {/* New STL Viewer Section */}
@@ -211,7 +218,7 @@ const App = () => {
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
               <a className="bg-green-300 text-black py-2 px-6 rounded-lg hover:bg-green-200 font-bold">
-                Contact Me
+                Buy Now
               </a>
             </Link>
           </div>

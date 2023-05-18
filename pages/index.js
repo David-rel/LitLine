@@ -60,6 +60,17 @@ export default function Index() {
                 Learn More
               </Link>
             </div>
+            <div
+              style={{ opacity: opacity }}
+              class="mt-8 flex flex-wrap gap-4 text-center"
+            >
+              <Link
+                href="/contact"
+                class="block w-full rounded bg-green-400 px-12 py-3 text-sm font-medium text-black shadow hover:bg-green-600 focus:outline-none focus:ring active:bg-green-600 sm:w-auto"
+              >
+                BUY NOW
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -88,8 +99,13 @@ export default function Index() {
                       ensure the best possible experience for our users.
                     </p>
                     <Link href="/products" legacyBehavior>
-                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                         products
+                      </a>
+                    </Link>
+                    <Link href="/contact" legacyBehavior>
+                      <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
+                        Buy Now
                       </a>
                     </Link>
                   </div>
@@ -123,8 +139,13 @@ export default function Index() {
                       allowed us to provide even more value to our customers.
                     </p>
                     <Link href="/creation" legacyBehavior>
-                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                         creation
+                      </a>
+                    </Link>
+                    <Link href="/contact" legacyBehavior>
+                      <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
+                        Buy Now
                       </a>
                     </Link>
                   </div>
@@ -158,8 +179,13 @@ export default function Index() {
                       expectations.
                     </p>
                     <Link href="/purpose" legacyBehavior>
-                      <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
+                      <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                         purpose
+                      </a>
+                    </Link>
+                    <Link href="/contact" legacyBehavior>
+                      <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
+                        Buy Now
                       </a>
                     </Link>
                   </div>
@@ -193,13 +219,18 @@ export default function Index() {
                         fantastic community.
                       </p>
                       <Link href="/about" legacyBehavior>
-                        <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
+                        <a className="bg-green-300 hover:bg-green6100 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                           Learn More
                         </a>
                       </Link>
                       <Link href="/contact" legacyBehavior>
-                        <a className="bg-green-300 hover:bg-green-100 text-black px-4 py-2 mt-4 inline-block rounded">
+                        <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                           Contact Me
+                        </a>
+                      </Link>
+                      <Link href="/contact" legacyBehavior>
+                        <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
+                          Buy Now
                         </a>
                       </Link>
                     </div>

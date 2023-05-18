@@ -36,14 +36,14 @@ function Navbar() {
             </Link>
             <ul className="hidden sm:flex items-center space-x-6 text-black text-xl">
               <li>
-                <Link href="/" className="hover:text-red-500 hover:underline">
+                <Link href="/" className="hover:text-white hover:underline">
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   href="/products"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                 >
                   Products
                 </Link>
@@ -51,7 +51,7 @@ function Navbar() {
               <li>
                 <Link
                   href="/about"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                 >
                   About the Creator
                 </Link>
@@ -59,7 +59,7 @@ function Navbar() {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                 >
                   Contact
                 </Link>
@@ -67,7 +67,7 @@ function Navbar() {
               <li>
                 <Link
                   href="/purpose"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                 >
                   Our Purpose
                 </Link>
@@ -85,7 +85,7 @@ function Navbar() {
             </p>
             <button
               onClick={toggleMobileMenu}
-              className="text-black text-3xl hover:text-red-500"
+              className="text-black text-3xl hover:text-white"
             >
               ☰
             </button>
@@ -100,7 +100,7 @@ function Navbar() {
               <h2 className="text-2xl font-semibold">Menu</h2>
               <button
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-black text-3xl hover:text-red-500"
+                className="text-black text-3xl hover:text-white"
               >
                 ×
               </button>
@@ -109,21 +109,21 @@ function Navbar() {
             <ul className="space-y-6 text-black text-xl">
               <li>
                 <Link href="/" legacyBehavior>
-                  <p className="hover:text-red-500 hover:underline cursor-pointer">
+                  <p className="hover:text-white hover:underline cursor-pointer">
                     Home
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="/products" legacyBehavior>
-                  <p className="hover:text-red-500 hover:underline cursor-pointer">
+                  <p className="hover:text-white hover:underline cursor-pointer">
                     Products
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="/about" legacyBehavior>
-                  <p className="hover:text-red-500 hover:underline cursor-pointer">
+                  <p className="hover:text-white hover:underline cursor-pointer">
                     About the Creator
                   </p>
                 </Link>
@@ -131,10 +131,10 @@ function Navbar() {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                   legacyBehavior
                 >
-                  <p className="hover:text-red-500 hover:underline cursor-pointer">
+                  <p className="hover:text-white hover:underline cursor-pointer">
                     Contact
                   </p>
                 </Link>
@@ -142,10 +142,10 @@ function Navbar() {
               <li>
                 <Link
                   href="/purpose"
-                  className="hover:text-red-500 hover:underline"
+                  className="hover:text-white hover:underline"
                   legacyBehavior
                 >
-                  <p className="hover:text-red-500 hover:underline cursor-pointer">
+                  <p className="hover:text-white hover:underline cursor-pointer">
                     Our Purpose
                   </p>
                 </Link>

@@ -1,7 +1,8 @@
+import Link from 'next/link'
 import React from 'react'
 function IndexPage() {
   return (
-    <div className='bg-green-100'>
+    <div className="bg-green-100">
       <div className=" mx-auto px-4 bg-green-100">
         <h1 className="text-5xl text-center f-m-w text-black font-bold pt-0 pt-4">
           Our Purpose for LitLine
@@ -24,13 +25,22 @@ function IndexPage() {
                   typesetting industry.
                 </p>
               </div>
+              <div className="mt-4">
+                <Link href="/contact" legacyBehavior>
+                  <a className="bg-green-300 text-black text-lg py-4 px-12 rounded-lg hover:bg-green-200 font-bold">
+                    Buy Now
+                  </a>
+                </Link>
+              </div>
             </div>
+
             <div className="lg:w-1/2 lg:ml-8">
               <div className="lg:flex items-start mb-8">
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog2.png"
                   className="w-full"
                 />
+
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
                     A Broken Backpack
@@ -43,6 +53,7 @@ function IndexPage() {
                   </p>
                 </div>
               </div>
+
               <div className="lg:flex items-start mb-8">
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog3.png"
