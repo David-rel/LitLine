@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 bg-green-300 rounded-xl shadow-xl overflow-hidden">
         <div className="relative md:h-full">
           <Image
-            src="/photos/people1.jpeg"
+            src="/photos/mat.jpeg"
             alt="Photo of the author"
             layout="responsive"
             width="100"

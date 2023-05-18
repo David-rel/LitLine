@@ -85,10 +85,15 @@ const App = () => {
           <div className="col-span-2">
             <h2 className="text-xl font-bold mb-4">Product Description</h2>
             <p>
-              Your detailed product description goes here. Include information
-              about the product's features, benefits, and any other relevant
-              information that will help the user understand and appreciate the
-              value of the product.
+              A major issue that children with Dyslexia struggle with is reading
+              large chunks of text at once. The LitLine attempts to remedy this
+              issue by isolating each line of text. It is an easily mass
+              producible and modifiable tool due to the fact that it is 3D
+              printed. In addition, the material used to create the LitLine is
+              composable non toxic PLA. All models of the tool are available on
+              Thingiverse.com (https:// www.thingiverse.com/thing:5966347) for
+              modification, and I distribute copies to local schools free of
+              charge.
             </p>
           </div>
           <div className="mt-4">
@@ -105,7 +110,7 @@ const App = () => {
           {/* New STL Viewer Section */}{' '}
           <div className="relative w-full max-w-4xl h-3/4 bg-gray-800 rounded-lg p-4 mb-20 mx-auto">
             <h1 className="text-center text-white text-lg mb-4">
-              Welcome to the STL Viewer
+              Welcome to the Lit Line viewer
             </h1>
             <Canvas
               camera={{ position: [0, 0, 100] }}

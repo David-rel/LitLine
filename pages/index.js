@@ -94,9 +94,10 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      This is the first part of our product journey, where it
-                      all started. We focused on creating a strong foundation to
-                      ensure the best possible experience for our users.
+                      The product you see here is the Lit Line. It is small and
+                      compact and can fit in your pocket. It is perfect for
+                      anyone who has trouble staying focused on the line and we
+                      highly recommend. Learn more below.
                     </p>
                     <Link href="/products" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
@@ -134,11 +135,12 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      As our product grew, we adapted and improved our offerings
-                      based on user feedback and emerging technologies. This
-                      allowed us to provide even more value to our customers.
+                      LitLine is created with just a 3D printer with composable
+                      non toxic PLA that is perfectly safe for your child. We
+                      build it in the 3D printer and ship it off to you. easy as
+                      that. see the process on how we make it below.
                     </p>
-                    <Link href="/creation" legacyBehavior>
+                    <Link href="/products" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
                         creation
                       </a>
@@ -173,10 +175,11 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      We continuously strive to stay ahead of the curve,
-                      bringing new features and innovations to our product. Our
-                      aim is to deliver an unmatched experience and exceed
-                      expectations.
+                      We believe in a world where everyone should be able to
+                      read without feeling left behind. with Lit Line students
+                      with dyslexia can read just as well as everyone else.
+                      Being able to read confidently and with precision is a
+                      life long important skill that we want everyone to learn.
                     </p>
                     <Link href="/purpose" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
@@ -215,12 +218,11 @@ export default function Index() {
                     </div>
                     <div className="w-full md:w-1/2 text-2xl text-black">
                       <p>
-                        Discover our amazing services and become part of our
-                        fantastic community.
+                        Here is a little about me, my life, and why I am doing this. If your interested click below.
                       </p>
                       <Link href="/about" legacyBehavior>
                         <a className="bg-green-300 hover:bg-green6100 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
-                          Learn More
+                          About Me
                         </a>
                       </Link>
                       <Link href="/contact" legacyBehavior>

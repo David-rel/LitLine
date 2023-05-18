@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
+
 function IndexPage() {
   return (
     <div className="bg-green-100">
       <div className=" mx-auto px-4 bg-green-100">
         <h1 className="text-5xl text-center f-m-w text-black font-bold pt-0 pt-4">
-          Our Purpose for LitLine
+          Our Purpose at LitLine
         </h1>
         <div className="pt-14 xl:px-0 px-4">
           <div className="w-full lg:flex">
@@ -16,19 +17,19 @@ function IndexPage() {
               />
               <div className="mt-8 lg:mb-0 mb-8">
                 <h1 className="f-m-m text-2xl font-semibold leading-7">
-                  Beautiful Italy, Travel Blog
+                  Empowering Dyslexic Kids
                 </h1>
                 <p className="text-base f-m-m leading-loose mt-2">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. It has survived not only five centuries.
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.
+                  Our mission at LitLine is to empower dyslexic children to
+                  unlock their full potential. Through our innovative tools,
+                  kids can overcome their reading challenges and build
+                  confidence in their abilities.
                 </p>
               </div>
               <div className="mt-4">
                 <Link href="/contact" legacyBehavior>
                   <a className="bg-green-300 text-black text-lg py-4 px-12 rounded-lg hover:bg-green-200 font-bold">
-                    Buy Now
+                    Get LitLine
                   </a>
                 </Link>
               </div>
@@ -43,13 +44,12 @@ function IndexPage() {
 
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
-                    A Broken Backpack
+                    Creating a Supportive Environment
                   </h1>
                   <p className="text-base f-m-m leading-loose mt-2">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. It has survived not only five
-                    centuries. Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry.
+                    We understand that each dyslexic child's learning journey is
+                    unique. LitLine creates a supportive learning environment
+                    that adapts to each child's specific needs.
                   </p>
                 </div>
               </div>
@@ -61,16 +61,16 @@ function IndexPage() {
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
-                    My life’s a Movie
+                    Engaging and Interactive Learning
                   </h1>
                   <p className="text-base f-m-m leading-loose mt-2">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. It has survived not only five
-                    centuries. Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry.
+                    We believe learning should be fun. LitLine leverages
+                    interactive elements to keep children engaged and motivated
+                    throughout their learning journey.
                   </p>
                 </div>
               </div>
+
               <div className="lg:flex items-start mb-8">
                 <img
                   src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog4.png"
@@ -78,13 +78,12 @@ function IndexPage() {
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
-                    Lilii’s Travel Plans
+                    A Community of Support
                   </h1>
                   <p className="text-base f-m-m leading-loose mt-2">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. It has survived not only five
-                    centuries. Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry.
+                    LitLine is more than just a tool. We're building a community
+                    to share experiences, advice, and support. Together, we're
+                    making a difference in the lives of dyslexic children.
                   </p>
                 </div>
               </div>
