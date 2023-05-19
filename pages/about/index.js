@@ -4,15 +4,12 @@ const About = () => {
   return (
     <div className="flex h-full p-10 bg-green-100">
       <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 bg-green-300 rounded-xl shadow-xl overflow-hidden">
-        <div className="relative md:h-full">
+        <div className="relative h-full w-full min-h-[50vh]">
           <Image
             src="/photos/mat.jpeg"
             alt="Photo of the author"
-            layout="responsive"
-            width="100"
-            height="100"
-            objectFit="cover"
-            objectPosition="center"
+            layout="fill"
+            objectFit="cover" // Optional based on your need
           />
         </div>
         <div className="p-2 md:p-10 flex flex-col justify-center">

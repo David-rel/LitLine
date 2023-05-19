@@ -74,15 +74,9 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link href="/login" className="hidden sm:inline-flex">
-            <p className="text-white italic hidden md:block text-right md:col-span-2">
-              "Everyone should be able to read"
-            </p>
-          </Link>
+          
           <div className="flex sm:hidden items-center space-x-10">
-            <p className="text-white italic hidden md:block text-right md:col-span-2">
-              "Everyone should be able to read"
-            </p>
+            
             <button
               onClick={toggleMobileMenu}
               className="text-black text-3xl hover:text-white"
