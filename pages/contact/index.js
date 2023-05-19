@@ -77,6 +77,7 @@ function Contact() {
                 <p className="text-lg text-black pt-10 tracking-wide">
                   Contact the Websites Programmer:
                 </p>
+                <br/>
                 <div class="flex justify-center mr-20">
                   <Link href="https://www.instagram.com/_david_rel/">
                     <button

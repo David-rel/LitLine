@@ -4,8 +4,9 @@ import React from 'react'
 
 function IndexPage() {
   return (
-    <div className="bg-green-100">
-      <div className=" mx-auto px-4 bg-green-100">
+    <div className='bg-green-100'>
+    <div className="bg-green-100 min-h-screen">
+      <div className="mx-auto px-4 md:px-0 bg-green-100">
         <h1 className="text-5xl text-center f-m-w text-black font-bold pt-0 pt-4">
           Our Purpose at LitLine
         </h1>
@@ -102,6 +103,7 @@ function IndexPage() {
         </div>
         <div />
       </div>
+    </div>
     </div>
   )
 }

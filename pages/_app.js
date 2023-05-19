@@ -7,7 +7,7 @@ import Head from 'next/head'
 function MyApp({ Component, pageProps }) {
 
   return (
-    <div>
+    <div className='bg-green-100'>
       <Head>
         <title>Lit Line</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
