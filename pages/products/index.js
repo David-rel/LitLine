@@ -68,9 +68,11 @@ const App = () => {
             <Image
               src="/photos/show.jpeg"
               alt="Product image 1"
-              layout="fill"
-              objectFit="cover"
               className="rounded-lg"
+              width={600}
+              height={50}
+
+
             />
           </div>
           <div className="relative h-96 w-full">

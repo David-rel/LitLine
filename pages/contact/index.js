@@ -73,8 +73,12 @@ function Contact() {
                 </p>
                 <br />
                 <br />
+
+                <p className="text-lg text-black pt-10 tracking-wide">
+                  Contact the Websites Programmer:
+                </p>
                 <div class="flex justify-center mr-20">
-                  <Link href="https://www.instagram.com/rjhsrobotics/">
+                  <Link href="https://www.instagram.com/_david_rel/">
                     <button
                       type="button"
                       data-mdb-ripple="true"
@@ -94,7 +98,7 @@ function Contact() {
                     </button>
                   </Link>
                   <div className="pr-10"></div>
-                  <Link href="https://twitter.com/frc3729">
+                  <Link href="https://twitter.com/_David_Rel">
                     <button
                       type="button"
                       data-mdb-ripple="true"
@@ -114,7 +118,7 @@ function Contact() {
                     </button>
                   </Link>
                   <div className="pr-10"></div>
-                  <Link href="https://github.com/regisjesuitrobotics">
+                  <Link href="https://github.com/David-rel">
                     <button
                       type="button"
                       data-mdb-ripple="true"

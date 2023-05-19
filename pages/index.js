@@ -240,6 +240,7 @@ export default function Index() {
                       </Link>
                     </div>
                   </div>
+                  <br/>
                 </div>
               </div>
             </div>
