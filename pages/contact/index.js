@@ -15,7 +15,7 @@ function Contact() {
             <div className="xl:w-2/5 lg:w-2/5 bg-green-600 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
               <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
                 <h1 className="xl:text-4xl text-3xl pb-4 text-black font-bold">
-                  Get in touch
+                  Get LitLine
                 </h1>
                 <p className="text-xl text-black pb-8 leading-relaxed font-normal lg:pr-4">
                   Got a question about me? Are you interested in the product and

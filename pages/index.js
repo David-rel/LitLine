@@ -31,14 +31,14 @@ export default function Index() {
           <div class="max-w-xl text-center sm:text-left">
             <h1
               style={{ opacity: opacity }}
-              class="text-3xl font-extrabold sm:text-5xl text-green-300"
+              class="text-5xl font-extrabold sm:text-5xl text-green-600"
             >
               Lit Line
               <strong
                 style={{ opacity: opacity }}
-                class="block font-extrabold text-green-600"
+                class="block font-extrabold text-green-400 text-3xl"
               >
-                Helping everyone to read
+                Enhancing Everyone's Reading Experience
               </strong>
             </h1>
 
@@ -46,7 +46,7 @@ export default function Index() {
               style={{ opacity: opacity }}
               class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed text-black"
             >
-              Welcome to Lit Line's Official Website
+              Welcome to the Official Home of Lit Line.
             </p>
 
             <div
@@ -68,7 +68,7 @@ export default function Index() {
                 href="/contact"
                 class="block w-full rounded bg-green-400 px-12 py-3 text-sm font-medium text-black shadow hover:bg-green-600 focus:outline-none focus:ring active:bg-green-600 sm:w-auto"
               >
-                BUY NOW
+                GET LITLINE
               </Link>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Index() {
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
                 <h2 className="text-5xl text-green-600 font-semibold mb-4">
-                  Our product
+                  Our Exceptional Product
                 </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
@@ -94,19 +94,19 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      The product you see here is the Lit Line. It is small and
-                      compact and can fit in your pocket. It is perfect for
-                      anyone who has trouble staying focused on the line and we
-                      highly recommend. Learn more below.
+                      Presenting the Lit Line - a compact and handy tool
+                      designed to improve focus while reading. We've crafted it
+                      with everyone in mind, especially those struggling with
+                      maintaining focus on the text. Discover more below.
                     </p>
                     <Link href="/products" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
-                        products
+                        Products
                       </a>
                     </Link>
                     <Link href="/contact" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
-                        Buy Now
+                        Get LitLine
                       </a>
                     </Link>
                   </div>
@@ -121,7 +121,7 @@ export default function Index() {
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
                 <h2 className="text-5xl font-semibold mb-4 text-green-600">
-                  How we do it
+                  The Creation Process
                 </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
@@ -135,19 +135,20 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      LitLine is created with just a 3D printer with composable
-                      non toxic PLA that is perfectly safe for your child. We
-                      build it in the 3D printer and ship it off to you. easy as
-                      that. see the process on how we make it below.
+                      LitLine is meticulously crafted using a 3D printer with
+                      eco-friendly, non-toxic PLA that ensures safety for all
+                      ages. From the printer to your door, our process is as
+                      simple as it is effective. Learn more about our unique
+                      production process below.
                     </p>
                     <Link href="/products" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-200 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
-                        creation
+                        Creation
                       </a>
                     </Link>
                     <Link href="/contact" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
-                        Buy Now
+                        Get LitLine
                       </a>
                     </Link>
                   </div>
@@ -161,7 +162,7 @@ export default function Index() {
             <div className="flex flex-col space-y-12">
               <div className="section-wrapper">
                 <h2 className="text-5xl font-semibold mb-4 text-green-600">
-                  Our Purpose
+                  Our Noble Cause
                 </h2>
                 <div className="flex flex-col md:flex-row-reverse items-center">
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
@@ -175,20 +176,20 @@ export default function Index() {
                   </div>
                   <div className="w-full md:w-1/2 text-2xl text-black">
                     <p>
-                      We believe in a world where everyone should be able to
-                      read without feeling left behind. with Lit Line students
-                      with dyslexia can read just as well as everyone else.
-                      Being able to read confidently and with precision is a
-                      life long important skill that we want everyone to learn.
+                      We envision a world where everyone can read with ease and
+                      confidence, without feeling left behind. Lit Line is
+                      designed to assist students with dyslexia, helping them
+                      read as well as their peers. We believe in empowering
+                      everyone with the lifelong skill of efficient reading.
                     </p>
                     <Link href="/purpose" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
-                        purpose
+                        Purpose
                       </a>
                     </Link>
                     <Link href="/contact" legacyBehavior>
                       <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
-                        Buy Now
+                        Get LitLine
                       </a>
                     </Link>
                   </div>
@@ -204,7 +205,7 @@ export default function Index() {
                 <div className="section-wrapper">
                   <h2 className="text-5xl font-semibold mb-4 text-green-600">
                     {' '}
-                    A little about me
+                    A Glimpse Into My Journey
                   </h2>
                   <div className="flex flex-col md:flex-row-reverse items-center">
                     <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
@@ -218,7 +219,9 @@ export default function Index() {
                     </div>
                     <div className="w-full md:w-1/2 text-2xl text-black">
                       <p>
-                        Here is a little about me, my life, and why I am doing this. If your interested click below.
+                        I invite you to learn a bit more about me, my life, and
+                        the inspiration behind Lit Line. If you're interested in
+                        my story and my work, feel free to explore further.
                       </p>
                       <Link href="/about" legacyBehavior>
                         <a className="bg-green-300 hover:bg-green6100 text-black px-4 py-2 mt-4 inline-block rounded mr-4">
@@ -232,7 +235,7 @@ export default function Index() {
                       </Link>
                       <Link href="/contact" legacyBehavior>
                         <a className="bg-green-300 hover:bg-green-600 text-black px-4 py-2 mt-4 inline-block rounded">
-                          Buy Now
+                          Get LitLine
                         </a>
                       </Link>
                     </div>

@@ -99,7 +99,7 @@ const App = () => {
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
               <a className="bg-green-300 text-black py-2 px-6 rounded-lg hover:bg-green-200 font-bold">
-                Buy Now
+                Get LitLine
               </a>
             </Link>
           </div>
@@ -223,7 +223,7 @@ const App = () => {
           <div className="mt-4">
             <Link href="/contact" legacyBehavior>
               <a className="bg-green-300 text-black py-2 px-6 rounded-lg hover:bg-green-200 font-bold">
-                Buy Now
+                Get LitLine
               </a>
             </Link>
           </div>
