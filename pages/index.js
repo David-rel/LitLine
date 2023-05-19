@@ -86,7 +86,7 @@ export default function Index() {
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                     <Image
                       className="object-cover object-center"
-                      src="/photos/thing.png"
+                      src="/photos/IMG_1130.jpeg"
                       alt="How we do it"
                       width={600}
                       height={400}
@@ -127,7 +127,7 @@ export default function Index() {
                   <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                     <Image
                       className="object-cover object-center"
-                      src="/photos/thing.png"
+                      src="/photos/IMG_1129.jpeg"
                       alt="How we do it"
                       width={600}
                       height={400}
@@ -211,7 +211,7 @@ export default function Index() {
                     <div className="w-full md:w-1/2 mb-4 md:mb-0 relative">
                       <Image
                         className="object-cover object-center"
-                        src="/photos/thing.png"
+                        src="/photos/mat.jpeg"
                         alt="How we do it"
                         width={600}
                         height={400}

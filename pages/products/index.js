@@ -66,7 +66,7 @@ const App = () => {
         <section className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-20">
           <div className="relative h-96 w-full">
             <Image
-              src="/photos/IMG_1126.jpeg"
+              src="/photos/show.jpeg"
               alt="Product image 1"
               layout="fill"
               objectFit="cover"
@@ -75,7 +75,7 @@ const App = () => {
           </div>
           <div className="relative h-96 w-full">
             <Image
-              src="/photos/IMG_1129.jpeg"
+              src="/photos/IMG_6344.jpeg"
               alt="Product image 2"
               layout="fill"
               objectFit="cover"

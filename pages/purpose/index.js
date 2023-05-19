@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -11,9 +12,11 @@ function IndexPage() {
         <div className="pt-14 xl:px-0 px-4">
           <div className="w-full lg:flex">
             <div className="lg:w-1/2">
-              <img
-                src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog1.png"
+              <Image
+                src="/photos/IMG_1125.jpeg"
                 className="w-full"
+                width={300}
+                height={300}
               />
               <div className="mt-8 lg:mb-0 mb-8">
                 <h1 className="f-m-m text-2xl font-semibold leading-7">
@@ -33,13 +36,16 @@ function IndexPage() {
                   </a>
                 </Link>
               </div>
+              <br />
             </div>
 
             <div className="lg:w-1/2 lg:ml-8">
               <div className="lg:flex items-start mb-8">
-                <img
-                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog2.png"
+                <Image
+                  src="/photos/IMG_1126.jpeg"
                   className="w-full"
+                  width={300}
+                  height={300}
                 />
 
                 <div className="lg:ml-6">
@@ -55,9 +61,11 @@ function IndexPage() {
               </div>
 
               <div className="lg:flex items-start mb-8">
-                <img
-                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog3.png"
+                <Image
+                  src="/photos/IMG_1128.jpeg"
                   className="w-full"
+                  width={300}
+                  height={300}
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
@@ -72,9 +80,11 @@ function IndexPage() {
               </div>
 
               <div className="lg:flex items-start mb-8">
-                <img
-                  src="https://cdn.tuk.dev/assets/components/111220/blg-17/blog4.png"
+                <Image
+                  src="/photos/IMG_6343.jpeg"
                   className="w-full"
+                  width={300}
+                  height={300}
                 />
                 <div className="lg:ml-6">
                   <h1 className="f-m-m text-2xl font-semibold leading-7 lg:mt-0 mt-8">
