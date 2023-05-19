@@ -100,7 +100,7 @@ function Navbar() {
               <h2 className="text-2xl font-semibold">Menu</h2>
               <button
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-black text-3xl hover:text-white"
+                className="text-black text-3xl hover:text-green-200"
               >
                 ×
               </button>
@@ -109,21 +109,21 @@ function Navbar() {
             <ul className="space-y-6 text-black text-xl">
               <li>
                 <Link href="/" legacyBehavior>
-                  <p className="hover:text-white hover:underline cursor-pointer">
+                  <p className="hover:text-green-200 hover:underline cursor-pointer">
                     Home
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="/products" legacyBehavior>
-                  <p className="hover:text-white hover:underline cursor-pointer">
+                  <p className="hover:text-green-200 hover:underline cursor-pointer">
                     Products
                   </p>
                 </Link>
               </li>
               <li>
                 <Link href="/about" legacyBehavior>
-                  <p className="hover:text-white hover:underline cursor-pointer">
+                  <p className="hover:text-green-200 hover:underline cursor-pointer">
                     About the Creator
                   </p>
                 </Link>
@@ -134,7 +134,7 @@ function Navbar() {
                   className="hover:text-white hover:underline"
                   legacyBehavior
                 >
-                  <p className="hover:text-white hover:underline cursor-pointer">
+                  <p className="hover:text-green-200 hover:underline cursor-pointer">
                     Contact
                   </p>
                 </Link>
@@ -145,7 +145,7 @@ function Navbar() {
                   className="hover:text-white hover:underline"
                   legacyBehavior
                 >
-                  <p className="hover:text-white hover:underline cursor-pointer">
+                  <p className="hover:text-green-200 hover:underline cursor-pointer">
                     Our Purpose
                   </p>
                 </Link>
