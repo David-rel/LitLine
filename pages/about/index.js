@@ -15,7 +15,7 @@ const About = () => {
         <div className="p-2 md:p-10 flex flex-col justify-center">
           <h2 className="text-3xl mb-4">Hello, my name is Mathew Gallagher</h2>
           <p className="text-xl">
-            I am currently a freshman at The Univeersity of Notre Dame, and I was
+            I am currently a freshman at The University of Notre Dame, and I was
             diagnosed with dyslexia in first grade. I greatly struggled with
             reading growing up and at times hated it due to the great confusion
             that I felt. I have since realized the joy that reading can bring
